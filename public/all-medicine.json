@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "name": "Napa",
+        "time":150,
+        "ingredients": "Paracetamol is indicated for fever, common cold and influenza, headache, toothache, earache, bodyache, myalgia, neuralgia, dysmenorrhoea, sprains, colic pain, back pain, post-operative pain, postpartum pain, inflammatory pain and post vaccination pain in children.",
+        "cost": 2000,
+        "image": "./images/napa.jpg"
+      },
+      {
+        "id": 2,
+        "name": "Alatrol",
+        "time":100,
+        "ingredients":"Alatrol belongs to a group of medicines called antihistamines. It is used to treat various allergic conditions such as hay fever, conjunctivitis and some skin reactions, and reactions to bites and stings. It relieves watery eyes, runny nose, sneezing, and itching. Alatrol can be taken with or without food",
+        "cost": 800,
+        "image": "./images/alat.jpg"
+      },
+      {
+        "id": 3,
+        "name": "Finix",
+        "time":60,
+        "ingredients":"Finix is a medicine that reduces the amount of acid produced in your stomach. It is used for treating acid-related diseases of the stomach and intestine such as heartburn, acid reflux, peptic ulcer disease, and some other stomach conditions associated with excessive acid production",
+        "cost": 400,
+        "image": "./images/finix.jpg"
+      },
+      {
+        "id": 4,
+        "name": "Zimax",
+        "time":60,
+        "ingredients":"Azithromycin demonstrated activity in vitro, against a wide range of gram-positive and gram-negative bacteria including: Staphylococcus aureus, Streptococcus pneumoniae, Streptococcus pyogenes (Group A) and other Streptococcal species; Haemophilus influenzae and parainfluenzae; ",
+        "cost": 1000,
+        "image": "./images/Zimax.jpg"
+      },
+      {
+        "id": 5,
+        "name": "Histacin",
+        "time":150,
+        "ingredients": "Medicines are important for addressing health problems and improve quality of lives. They form an indispensable component of health systems. That is why PriyoShop has brought to you the Histacin Tablet 4mg (A005752).",
+        "cost": 2000,
+        "image": "./images/hista.jpeg"
+      }
+      
+   
+  ]
