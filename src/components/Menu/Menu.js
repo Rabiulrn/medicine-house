@@ -46,6 +46,10 @@ const Menu = () => {
                       <li>Login</li>
                     </Link>
                 }
+                 <Link to="register" className="items">
+                  <li>Register</li>
+
+                </Link>
               </ul>
             </div>
           </div>

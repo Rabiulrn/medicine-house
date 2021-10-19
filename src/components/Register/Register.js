@@ -1,9 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Menu from '../Menu/Menu';
 
 const Register = () => {
     return (
-        <div className="login-form">
+        
+        <div className="container">
+            <Menu></Menu>
             <div>
                 <h2>Register: Create Account</h2>
                 <form onSubmit="">

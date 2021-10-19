@@ -2,7 +2,6 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Home from "./components/Home/Home";
-import About from "./components/About/About";
 import Gallery from "./components/Gallery/Gallery";
 import NotFound from "./components/NotFound/NotFound";
 import Login from "./components/Login/Login";
@@ -27,19 +26,16 @@ function App() {
             <Route exact path="/home" >
               <Home />
             </Route>
-            <Route exact path="/about" >
-              <About />
-            </Route>
            
             <Route exact path="/all-medicine" >
               <AllMedicine></AllMedicine>
             </Route>
-            <Route exact path="/donate" >
+            <PrivateRoute exact path="/donate" >
               <DonateMedicine></DonateMedicine>
-            </Route>
-            <Route exact path="/request" >
+            </PrivateRoute>
+            <PrivateRoute exact path="/request" >
               <RequestMedicine></RequestMedicine>
-            </Route>
+            </PrivateRoute>
             <Route exact path="/photo-gallery" >
               <Gallery />
             </Route>

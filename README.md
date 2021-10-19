@@ -1,12 +1,12 @@
-# Classy Cuisin
+# Medicine House
 
 
 ## Short descrition of website
 
-* Basically, It is a cookng learning site
-* static route used
-* There are default home page,also has recipes ,about us,photo gallery page
-* If enter wrong url, it shows -page not found
+* Basically, It is a medicine donation platform
+* People also can Requst for medicine
+* Also can see the available medicine list
+* For donate or request must have to log in
 
 
 ### Languages

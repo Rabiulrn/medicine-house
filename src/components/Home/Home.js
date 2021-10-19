@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
-import Chefs from '../Chefs/Chefs';
+
 import Footer from '../Footer/Footer';
 import Header from '../Header/Header';
 import "./Home.css"
@@ -93,7 +93,28 @@ const Home = () => {
             </div>
 
 
-            <Chefs></Chefs>
+          
+            {/* doner */}
+            <div >
+            <h1 className="text-center my-5">Top Donor</h1>
+            <div className="chef container mb-5">
+                <div>
+                    <img className="chef-photo" src="./images/d1.jpg" alt="" />
+                    <h5 className="text-center my-2"> Arefin Shuvo</h5>
+                </div>
+                <div>
+                    <img className="chef-photo" src="./images/d2.jpg" alt="" />
+                    <h5 className="text-center my-2">Siam</h5>
+                </div>
+                <div>
+                    <img className="chef-photo" src="./images/d3.jpg" alt="" />
+                    <h5 className="text-center my-2">Karim</h5>
+                </div>
+               
+
+            </div>
+
+        </div>
             <Footer></Footer>
         </div>
     );
